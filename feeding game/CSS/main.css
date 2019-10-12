@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+}
+
+div {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+}
+
+/* ================= Start point of game ================= */
+.player {
+    background: rgb(250, 21, 33);
+    border-radius: 50%;    
+    border:solid 4px #000;
+} 
+
+.food {
+    background: rgb(51, 161, 23);
+    border:solid 4px #000;
+    transition: 0.4s ease-in-out;
+    border-radius: 50%;
+} 
+
+/* ================= End point of game ================= */
+
+/* ================= Start Desribtion of game ================= */
+h1 {
+    color: red;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+p {
+    color: blueviolet;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    font-family: monospace;
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+
+.red_point {
+    color: #fff;
+    background: rgb(250, 21, 33);
+    padding: 5px;
+}
+
+.green_point {
+    color: #fff;
+    background: rgb(51, 161, 23);
+    padding: 5px;
+}
+/* ================= End Desribtion of game ================= */
+
+/* ================= Start counter and points score ================= */
+.timer {
+    color: rgb(48, 50, 192);    
+    font-family: monospace
+}
+
+.seconds {
+    color: rgba(102, 11, 11, 0.897);
+}
+
+.counter {
+    color: rgb(21, 25, 255);    
+    font-family: monospace
+}
+
+/* ================= End counter and points score ================= */
+
+/* ================= Start Success Div ================= */
+
+.sucess {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(153, 61, 7);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    visibility: hidden;
+}
+
+.sucess h1 {    
+    margin-left: 0px;
+    color: #fff;    
+    font-family: monospace;
+    font-weight: 900;
+}
+
+.sucess button {
+    background: #fff;
+    border: none;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px 40px;
+    font-family: monospace;
+}
+
+.user_time {
+    color: #fff;    
+    font-family: monospace;
+}
+
+.sucess ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.sucess ul .fa-star {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.sucess p {
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+/* ================= End Success Div ================= */
